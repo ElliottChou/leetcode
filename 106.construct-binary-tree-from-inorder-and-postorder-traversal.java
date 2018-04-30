@@ -48,7 +48,6 @@ class Solution {
             return null;
         }
         TreeNode foo = new TreeNode(postorder[postorder.length-1]);
-        int is, ie, ps, pe;
         int index = 0;
         while(inorder[index]!=postorder[postorder.length-1]) index++;
         if(index-1>=0)

@@ -51,9 +51,4 @@ class Solution {
         return 1 + Math.min(minDepth(root.right), minDepth(root.left));
     }
 
-    public int minhelp(TreeNode root){
-        if(root==null) return 0;
-        return 1 + Math.min(minhelp(root.right), minhelp(root.left));
-    }
-
 }
